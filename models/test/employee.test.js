@@ -50,11 +50,10 @@ describe('Employee', () => {
         expect(err).to.exist;
       });
     };
+  });
 
-    after(() => {
+  after(() => {
     mongoose.models = {};
     });
-
-  });
 
 });
